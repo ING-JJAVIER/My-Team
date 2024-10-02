@@ -11,24 +11,25 @@ function App() {
 
   return (
     <>
-    <div className="md:flex md:justify-center md:items-center md:h-screen">
-    <main className="p-4 md:w-[33rem] md:flex md:flex-col md:items-center">
+      <div className="md:flex md:justify-center md:items-center md:h-screen">
+        
+        <main className="p-4 md:w-[33rem] md:flex md:flex-col md:items-center">
 
-<header className="mb-10">
-  <Header />
-</header>
+          <header className="mb-10">
+            <Header />
+          </header>
 
-<div className="flex flex-wrap justify-evenly md:w-[30rem]md:justify-evenly ">
-  <Card1/>
-  <Card2/>
-  <Card3 />
-  <Card4 />
-  <Card5 />
-  <Card6 />
-</div>
-</main>
-    </div>
-      
+          <div className="flex flex-wrap justify-evenly md:w-[30rem]md:justify-evenly ">
+            <Card1 />
+            <Card2 />
+            <Card3 />
+            <Card4 />
+            <Card5 />
+            <Card6 />
+          </div>
+        </main>
+      </div>
+
 
     </>
   )
