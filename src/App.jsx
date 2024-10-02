@@ -27,7 +27,9 @@ function App() {
             <Card5 />
             <Card6 />
           </div>
+
         </main>
+        
       </div>
 
 
